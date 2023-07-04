@@ -30,11 +30,6 @@ export default function () {
         shell.openExternal('https://opencollective.com/marktext')
       }
     }, {
-      label: 'Feedback via Twitter...',
-      click (item, win) {
-        actions.showTweetDialog(win, 'twitter')
-      }
-    }, {
       label: 'Report Issue or Request Feature...',
       click () {
         shell.openExternal('https://github.com/marktext/marktext/issues')
