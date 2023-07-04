@@ -1,5 +1,5 @@
 import { autoUpdater } from 'electron-updater'
-import { ipcMain, BrowserWindow, Menu } from 'electron'
+import { ipcMain, Menu } from 'electron'
 import { COMMANDS } from '../../commands'
 import { isOsx } from '../../config'
 

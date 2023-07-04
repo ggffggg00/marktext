@@ -1,6 +1,4 @@
-import path from 'path'
 import { shell } from 'electron'
-import { isFile } from 'common/filesystem'
 import * as actions from '../actions/help'
 
 export default function () {
