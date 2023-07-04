@@ -46,11 +46,6 @@ ipcMain.on('mt::NEED_UPDATE', (e, { needUpdate }) => {
   }
 })
 
-ipcMain.on('mt::check-for-update', e => {
-  const win = BrowserWindow.fromWebContents(e.sender)
-  checkUpdates(win)
-})
-
 // --------------------------------------------------------
 
 export const userSetting = () => {
